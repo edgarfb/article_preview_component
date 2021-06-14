@@ -46,7 +46,7 @@ h1, h2, h3, p {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    min-width: 375px;
+    min-width: 320px;
 }
 
 .article-preview {
