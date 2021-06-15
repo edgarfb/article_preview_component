@@ -2,14 +2,15 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-<<<<<<< HEAD
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"> <!-- displays site properly based on user's device -->
-=======
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1" <!-- displays site properly based on user's device -->
->>>>>>> 6bb2efe53ec4d72c4ef0f1909e132619e3bad036
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./icons.css">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
   
@@ -38,16 +39,22 @@
         <img src="./images/drawers.jpg" alt="A drawers">
       </div>
       <div class="article-preview-text">
-        <h2>
-          Shift the overall look and feel by adding these wonderful
-          touches to furniture in your home
-        </h2>
-        <p>
-          Ever been in a room and felt like something was missing? Perhaps
-          it felt slightly bare and uninviting. I’ve got some simple tips
-          to help you make any room feel complete.
-        </p>
-        <div class="author">
+        <div class="resume">
+          <h2>
+            Shift the overall look and feel by adding these wonderful
+            touches to furniture in your home
+          </h2>
+          <p>
+            Ever been in a room and felt like something was missing? Perhaps
+            it felt slightly bare and uninviting. I’ve got some simple tips
+            to help you make any room feel complete.
+          </p>
+        </div>
+
+        <!-- AUTHOR -->
+
+      <div class="author">
+        <div class="author__info">
           <div class="author__img">
             <img src="./images/avatar-michelle.jpg" alt="A photo's author">
           </div>
@@ -55,9 +62,81 @@
             <h3>Michelle Appleton</h3>
             <p>28 Jun 2020</p>
           </div>
-          <a class="author__btn" href="#"><img src="./images/icon-share.svg" alt="Shere icon"></a>
         </div>
+        <div class="author__share">
+          
+          <div id="tooltip" class="fadeOut">
+            <div class="arrow"></div>
+            <div class="tooltip__inner">
+              <div class="tooltip__text">
+                <p>share</p>
+              </div>
+              <div class="tooltips__icon">
+                <a href="#">
+                  <span class="icon-facebook-square"></span>
+                  <!-- <img src="./images/icon-facebook.svg" alt="Facebook Icon"> -->
+                </a>
+                <a href="#">
+                  <span class="icon-twitter"></span>
+                  <!-- <img src="./images/twitter-brands.svg" alt="Twitter Icon"> -->
+                </a>
+                <a href="#">
+                  <span class="icon-pinterest"></span>
+                  <!-- <img src="./images/pinterest-brands.svg" alt="Pinterest Icon"> -->
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="share-btn">
+            <a id="share" href="#" class="icon-mail-forward">
+              <!-- <img src="./images/icon-facebook.svg" alt="Facebook Icon"> -->
+            </a>
+          </div>
+        </div>
+        
       </div>
+        
+      </div>
+
+
+      
+
+
+      <!-- AUTHOR -->
+
+
+      <!-- MOBILE TOOLTIP -->
+
+      <div id="tooltip-sm" class="">
+        
+          <div class="tooltip__text">
+            <p>share</p>
+          </div>
+          <div class="tooltips__icon">
+            <a href="#">
+              <span class="icon-facebook-square"></span>
+              <!-- <img src="./images/icon-facebook.svg" alt="Facebook Icon"> -->
+            </a>
+            <a href="#">
+              <span class="icon-twitter"></span>
+              <!-- <img src="./images/twitter-brands.svg" alt="Twitter Icon"> -->
+            </a>
+            <a href="#">
+              <span class="icon-pinterest"></span>
+              <!-- <img src="./images/pinterest-brands.svg" alt="Pinterest Icon"> -->
+            </a>
+          </div>
+          <div class="share-btn">
+            <a id="share-close" href="#" class="icon-mail-forward">
+              <!-- <img src="./images/icon-facebook.svg" alt="Facebook Icon"> -->
+            </a>
+          </div>
+        
+      </div>
+
+      <!-- MOBILE TOOLTIP -->
+
+
     </div>
   </main>
 
@@ -69,5 +148,7 @@
       >Frontend Mentor</a
     >. Coded by <a href="https://github.com/edgarfb" target="_blank">Edgar Fernando Britez</a>.
   </div> -->
+
+  <script src="./share.js"></script>
 </body>
 </html>
