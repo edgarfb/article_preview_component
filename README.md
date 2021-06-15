@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github repo](https://github.com/edgarfb/article_preview_component)
-- Live Site URL: [social proof section](https://edgarfb.github.io/article_preview_component/)
+- Live Site URL: [Article preview component](https://edgarfb.github.io/article_preview_component/)
 
 ## My process
 
